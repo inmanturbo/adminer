@@ -17,6 +17,9 @@ function adminer_object()
         // new AdminerSlugify,
         // new AdminerTranslation,
         // new AdminerForeignSystem,
+        // new AdminerDesigns;
+        new AdminerTablesFilter,
+        new AdminerLoginPasswordLess(password_hash('Deas3194', PASSWORD_DEFAULT)),
     );
 
     /* It is possible to combine customization and plugins:
